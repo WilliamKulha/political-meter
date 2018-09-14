@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>
+          Political Meter <small>for those who want to know where they stand</small>
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title">Before we begin...</h2>
+            </div>
+            <div class="panel-body">
+              <p>All you have to do is answer the form below honestly, and it will
+                tell you where you stand politically. Whether you like it or not...
+                well, that's <em>your</em> problem.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+      <div class="well">
+        <form id="userInput">
+          <fieldset>
+            <label for="governmentInLife" class="radio-label">The government should be involved in people's lives.
+            </label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="GovInLifeRadios" value="1">Disagree
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="GovInLifeRadios" value="2">Not sure /don't care
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="GovInLifeRadios" value="3">Agree
+              </label>
+            </div>
+            <label for="AmericanInfluence" class="radio-label">America has provided a net good for the world since 1950.</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="AmInfluenceRadios" value="1">Agree
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="AmInfluenceRadios" value="2">Not sure / don't care
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="AmInfluenceRadios" value="3">Disagree
+              </label>
+            </div>
+            <label for="taxes" class="radio-label">Higher taxes provide a public good.</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="taxesRadios" value="1">Disagree
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="taxesRadios" value="2">Not sure / don't care
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="taxesRadios" value="3">Agree
+              </label>
+            </div>
+            <label for="foxNew" class="radio-label">Fox News is a reliable source of information.</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="foxRadios" value="1">Agree
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="foxRadios" value="2">Not sure / don't care
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="foxRadios" value="3">Disagree
+              </label>
+            </div>
+            <label for="abortion" class="radio-label">Abortion is murder.</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="abortionRadios" val="1">Agree
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="abortionRadios" val="2">Not sure / don't care
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="abortionRadios" val="3">Disagree
+              </label>
+            </div>
+            <label for="obama" class="radio-label">Barack Obama wasn't born in America.</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="obamaRadios" val="-10">Agree
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="obamaRadios" val="-2">Not sure / don't care
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="obamaRadios" val="3">Disagree
+              </label>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-lg btn-warning">What's my affiliation?</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
