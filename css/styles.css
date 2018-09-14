@@ -22,3 +22,8 @@ label {
 .center {
   text-align:center;
 }
+
+.smaller {
+  height:500px;
+  width:500px;
+}
