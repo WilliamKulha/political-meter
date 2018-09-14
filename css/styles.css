@@ -27,3 +27,7 @@ label {
   height:500px;
   width:500px;
 }
+
+.hider {
+  display:none;
+}

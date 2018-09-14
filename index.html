@@ -43,7 +43,7 @@
             </label>
             <div class="radio">
               <label>
-                <input type="radio" name="GovInLifeRadios" value="1">Disagree
+                <input type="radio" name="GovInLifeRadios" value="1" required>Disagree
               </label>
             </div>
             <div class="radio">
@@ -59,7 +59,7 @@
             <label for="AmericanInfluence" class="radio-label">America has provided a net good for the world since 1950.</label>
             <div class="radio">
               <label>
-                <input type="radio" name="AmInfluenceRadios" value="1">Agree
+                <input type="radio" name="AmInfluenceRadios" value="1" required>Agree
               </label>
             </div>
             <div class="radio">
@@ -75,7 +75,7 @@
             <label for="taxes" class="radio-label">Higher taxes provide a public good.</label>
             <div class="radio">
               <label>
-                <input type="radio" name="taxesRadios" value="1">Disagree
+                <input type="radio" name="taxesRadios" value="1" required>Disagree
               </label>
             </div>
             <div class="radio">
@@ -91,7 +91,7 @@
             <label for="foxNew" class="radio-label">Fox News is a reliable source of information.</label>
             <div class="radio">
               <label>
-                <input type="radio" name="foxRadios" value="1">Agree
+                <input type="radio" name="foxRadios" value="1" required>Agree
               </label>
             </div>
             <div class="radio">
@@ -107,7 +107,7 @@
             <label for="abortion" class="radio-label">Abortion is murder.</label>
             <div class="radio">
               <label>
-                <input type="radio" name="abortionRadios" value="1">Agree
+                <input type="radio" name="abortionRadios" value="1" require>Agree
               </label>
             </div>
             <div class="radio">
@@ -123,12 +123,12 @@
             <label for="obama" class="radio-label">Barack Obama wasn't born in America.</label>
             <div class="radio">
               <label>
-                <input type="radio" name="obamaRadios" value="-10">Agree
+                <input type="radio" name="obamaRadios" value="1" require>Agree
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="obamaRadios" value="-2">Not sure / don't care
+                <input type="radio" name="obamaRadios" value="2">Not sure / don't care
               </label>
             </div>
             <div class="radio">
@@ -142,7 +142,7 @@
           </fieldset>
         </form>
       </div>
-      <div class="row">
+      <div class="row hider" id="repub">
         <div class="col-md-2">
         </div>
         <div class="col-md-8">
@@ -159,7 +159,7 @@
         <div class="col-md-2">
         </div>
       </div>
-      <div class="row">
+      <div class="row hider" id="dem">
         <div class="col-md-2">
         </div>
         <div class="col-md-8">
@@ -174,11 +174,11 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row hider" id="center">
         <div class="col-md-2">
         </div>
         <div class="col-md-8">
-          <div class="well">
+          <div class="well" >
             <img src="img/centrist.jpeg" class="img-responsive center-block" alt="A cartoon of a centrist.">
             <div class="text-center">
               <h3>Centrist</h3>
